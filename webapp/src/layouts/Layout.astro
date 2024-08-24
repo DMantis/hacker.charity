@@ -1,0 +1,157 @@
+---
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+<style is:global>
+	body {
+		font-family: Arial, sans-serif;
+		background-color: #f0f0f0;
+		padding: 20px;
+		line-height: 1.6;
+	}
+
+	.container {
+		max-width: 1000px;
+		margin: 0 auto;
+	  	min-height: 100vh;
+		display: flex;
+	 	flex-direction: column;
+	}
+
+	h1, h2, h3, p, a, span, button {
+		text-transform: lowercase;
+	}
+
+	h1 {
+		font-size: 2em;
+		margin-bottom: 20px;
+	}
+
+	h2 {
+		font-size: 1.5em;
+		margin-bottom: 10px;
+	}
+
+	.tag-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+		margin-bottom: 20px;
+	}
+
+	.tag {
+		padding: 5px 10px;
+		border-radius: 20px;
+		cursor: pointer;
+		font-size: 0.9em;
+		border: none;
+		background-color: #e9ecef;
+		color: #333;
+		transition: background-color 0.3s, color 0.3s;
+	}
+
+	.tag.selected {
+		background-color: #007bff;
+		color: white;
+	}
+
+	.tag:hover {
+		background-color: #dee2e6;
+	}
+
+	.projects-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		gap: 20px;
+		flex: 1;
+	}
+
+	.project-card {
+		background-color: white;
+		border-radius: 8px;
+		padding: 20px;
+		box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	}
+
+	.project-card h3 {
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+
+	.project-card p {
+		font-size: 0.9em;
+		color: #666;
+		margin-bottom: 10px;
+	}
+
+	.project-card a {
+		color: #007bff;
+		text-decoration: none;
+	}
+
+	.project-card a:hover {
+		text-decoration: underline;
+	}
+
+	.project-tags, .payment-methods {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 5px;
+		margin-top: 10px;
+	}
+
+	.project-tag, .payment-method {
+		font-size: 0.8em;
+		padding: 2px 8px;
+		border-radius: 12px;
+		display: flex;
+		align-items: center;
+		gap: 4px;
+	}
+
+	.project-tag {
+		background-color: #e9ecef;
+		color: #333;
+	}
+
+	.payment-method {
+		background-color: #d4edda;
+		color: #155724;
+	}
+
+	.payment-icon {
+		width: 16px;
+		height: 16px;
+		fill: currentColor;
+	}
+
+	footer {
+	  text-align: center;
+	  padding: 2rem 0;
+	  color: #666;
+	  font-size: 0.9em;
+	  margin-top: auto;
+	}
+
+	footer a {
+	  color: #007bff;
+	  text-decoration: none;
+	}
+
+	footer a:hover {
+	  text-decoration: underline;
+	}
+</style>

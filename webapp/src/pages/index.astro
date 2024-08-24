@@ -1,0 +1,133 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import Tag from '../components/Tag.astro';
+import { projectsData, paymentMethodsMap } from '../data/projects';
+
+let allProjectTags = new Set();
+let allPaymentTags = new Set();
+let projectTagsIndex = {};
+let paymentMethodsIndex = {}	;
+
+projectsData.forEach((project, index) => {
+	project.tags.forEach(tag => {
+		let lowerTag = tag.toLowerCase();
+		allProjectTags.add(lowerTag);
+		if (!projectTagsIndex[lowerTag]) {
+			projectTagsIndex[lowerTag] = new Set();
+		}
+		projectTagsIndex[lowerTag].add(index);
+	});
+	project.payment_methods.forEach(method => {
+		let lowerMethod = method.toLowerCase();
+		allPaymentTags.add(lowerMethod);
+		if (!paymentMethodsIndex[lowerMethod]) {
+			paymentMethodsIndex[lowerMethod] = new Set();
+		}
+		paymentMethodsIndex[lowerMethod].add(index);
+	});
+});
+
+let allProjectTagsSorted = Array.from(allProjectTags).sort((a, b) =>
+    (a as string).toLowerCase().localeCompare((b as string).toLowerCase())
+);
+let allPaymentTagsSorted = Array.from(allPaymentTags).sort((a, b) =>
+    paymentMethodsMap[a].name.toLowerCase().localeCompare(paymentMethodsMap[b].name.toLowerCase())
+);
+
+// Convert Sets to arrays for JSON serialization
+for (let tag in projectTagsIndex) {
+	projectTagsIndex[tag] = Array.from(projectTagsIndex[tag]);
+}
+for (let method in paymentMethodsIndex) {
+	paymentMethodsIndex[method] = Array.from(paymentMethodsIndex[method]);
+}
+---
+
+<Layout title="hacker.charity">
+	<main class="container">
+		<h1>hacker.charity</h1>
+		<p>the list of open-source and privacy-oriented projects that accept donations</p>
+
+		<div>
+			<h2>project tags</h2>
+			<div id="projectTags" class="tag-container">
+				{allProjectTagsSorted.map(tag => (
+					<Tag tag={tag} type="project" />
+				))}
+			</div>
+		</div>
+
+		<div>
+			<h2>payment method tags</h2>
+			<div id="paymentTags" class="tag-container">
+				{allPaymentTagsSorted.map(tag => (
+					<Tag tag={paymentMethodsMap[tag].name} shortName={tag} type="payment" icon={paymentMethodsMap[tag].icon} />
+				))}
+			</div>
+		</div>
+
+		<div id="projects" class="projects-grid">
+			{projectsData.map((project, index) => (
+				<ProjectCard project={project} index={index} />
+			))}
+		</div>
+
+		<footer>
+		  <a href="https://github.com/dmantis/hacker.charity" target="_blank">github</a> | made by Dmitry Mantis
+		</footer>
+	</main>
+</Layout>
+<script define:vars={{projectTagsIndex, paymentMethodsIndex}}>
+	const selectedProjectTags = new Set();
+	const selectedPaymentTags = new Set();
+
+	function toggleTag(tag, type) {
+		const tagSet = type === 'project' ? selectedProjectTags : selectedPaymentTags;
+		if (tagSet.has(tag)) {
+			tagSet.delete(tag);
+		} else {
+			tagSet.add(tag);
+		}
+		updateTags();
+		filterProjects();
+	}
+
+	function updateTags() {
+		document.querySelectorAll('.tag').forEach(tag => {
+			const tagType = tag.dataset.type;
+			const tagName = tagType === 'project' ? tag.textContent : tag.dataset.shortName;
+			const tagSet = tagType === 'project' ? selectedProjectTags : selectedPaymentTags;
+			tag.classList.toggle('selected', tagSet.has(tagName));
+		});
+	}
+
+	function filterProjects() {
+		let visibleProjects;
+
+		if (selectedProjectTags.size > 0) {
+			visibleProjects = new Set(projectTagsIndex[selectedProjectTags.values().next().value]);
+			for (let tag of selectedProjectTags) {
+				visibleProjects = new Set([...visibleProjects].filter(x => projectTagsIndex[tag].includes(x)));
+			}
+		} else {
+			visibleProjects = new Set(Array.from({length: document.querySelectorAll('.project-card').length}, (_, i) => i));
+		}
+
+		if (selectedPaymentTags.size > 0) {
+			const paymentVisibleProjects = new Set();
+			for (let method of selectedPaymentTags) {
+				paymentMethodsIndex[method].forEach(index => paymentVisibleProjects.add(index));
+			}
+			visibleProjects = new Set([...visibleProjects].filter(x => paymentVisibleProjects.has(x)));
+		}
+
+		document.querySelectorAll('.project-card').forEach((card, index) => {
+			card.style.display = visibleProjects.has(index) ? 'block' : 'none';
+		});
+	}
+
+	document.querySelectorAll('.tag').forEach(tag => {
+		tag.addEventListener('click', () => toggleTag(tag.dataset.shortName || tag.textContent, tag.dataset.type));
+	});
+</script>
