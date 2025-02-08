@@ -1393,6 +1393,15 @@ export const projectsData = [
         payment_methods: ["opencollective"],
         methods_checked_by_hand: true,
         description: "CC0 SVG icons for popular brands",
+    },
+    {
+        name: "numpy",
+        link: "https://numpy.org/",
+        tags: ["python", "dev", "science"],
+        payment_methods: ["opencollective"],
+        methods_checked_by_hand: true,
+        description: "Scientific computing library for Python",
+        donation_page: "https://numpy.org/about/#donate"
     }
 ];
 
