@@ -26,6 +26,8 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+# VSCode setting folder
+.vscode/
 
 TODO.md
 # some dirty parsing scripts, not ready to be published
