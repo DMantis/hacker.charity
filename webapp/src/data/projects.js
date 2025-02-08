@@ -1113,7 +1113,7 @@ export const projectsData = [
     {
         name: "webcamoid",
         link: "https://webcamoid.github.io/",
-        tags: ["media", "webcam"],
+        tags: ["media", "linux", "windows", "macos", "freebsd", "android"],
         payment_methods: ["github", "paypal", "patreon", "kofi", "liberapay", "buymeacoffee", "btc", "xmr", "ltc", "eth", "ada", "doge", "sol", "zec", "dot", "bch"],
         methods_checked_by_hand: true,
         description: "Webcam capture with virtual cameras support",
@@ -1402,6 +1402,15 @@ export const projectsData = [
         methods_checked_by_hand: true,
         description: "Scientific computing library for Python",
         donation_page: "https://numpy.org/about/#donate"
+    },
+    {
+        name: "nekoray",
+        link: "https://github.com/MatsuriDayo/nekoray",
+        tags: ["security", "vpn", "privacy", "windows", "linux"],
+        payment_methods: ["usdt-trc20", "monero"],
+        methods_checked_by_hand: true,
+        description: "GUI for V2Ray, VLESS, XRay VPN protocols.",
+        donation_page: "https://github.com/MatsuriDayo/nekoray?tab=readme-ov-file#%E6%8D%90%E5%8A%A9--donate",
     }
 ];
 
