@@ -4,5 +4,5 @@ run:
 build:
     npm run build --prefix webapp
 
-publish:
+publish: build
     npx --prefix ./webapp wrangler pages deploy
