@@ -1443,7 +1443,7 @@ export const paymentMethodsMap = {
     // stablecoin section
     "usdt-erc20": { name: "usdt erc20", icon: "tether" },
     "usdt-trc20": { name: "usdt trc20", icon: "tether" },
-    "usdc-erc20": { name: "usdc erc20", icon: "usdc" },
-    "dai-erc20": { name: "dai erc20", icon: "dai" }
+    "usdc-erc20": { name: "usdc erc20", icon: "" },
+    "dai-erc20": { name: "dai erc20", icon: "" }
 };
 
