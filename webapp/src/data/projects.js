@@ -1407,7 +1407,7 @@ export const projectsData = [
         name: "nekoray",
         link: "https://github.com/MatsuriDayo/nekoray",
         tags: ["security", "vpn", "privacy", "windows", "linux"],
-        payment_methods: ["usdt-trc20", "monero"],
+        payment_methods: ["usdt-trc20", "xmr"],
         methods_checked_by_hand: true,
         description: "GUI for V2Ray, VLESS, XRay VPN protocols.",
         donation_page: "https://github.com/MatsuriDayo/nekoray?tab=readme-ov-file#%E6%8D%90%E5%8A%A9--donate",
