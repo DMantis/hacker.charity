@@ -20,7 +20,7 @@ import { paymentMethodsMap } from '../data/projects';
 	<div class="payment-methods">
 		{project.payment_methods.map(method => (
 			<span class="payment-method">
-				<svg class="payment-icon"><use xlink:href={`/icon-sprite.svg#icon-${paymentMethodsMap[method].icon}`}></use></svg>
+				{paymentMethodsMap[method].icon ? <svg class="payment-icon"><use xlink:href={`/icon-sprite.svg#icon-${paymentMethodsMap[method].icon}`}></use></svg> : null}
 				{paymentMethodsMap[method].name}
 			</span>
 		))}
