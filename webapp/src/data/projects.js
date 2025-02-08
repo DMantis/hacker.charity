@@ -1367,6 +1367,7 @@ export const projectsData = [
         payment_methods: ["opencollective"],
         donation_page: "https://scipy.org/about/#donate",
         methods_checked_by_hand: true,
+        description: "Scientific computing library for Python",
     },
     {
         name: "SageMath",
@@ -1374,6 +1375,7 @@ export const projectsData = [
         tags: ["dev", "science"],
         payment_methods: ["github", "opencollective"],
         methods_checked_by_hand: true,
+        description: "Mathematics software system",
     },
     {
         name: "Bevy Engine",
@@ -1381,7 +1383,16 @@ export const projectsData = [
         tags: ["rust", "dev", "gamedev"],
         payment_methods: ["stripe"],
         methods_checked_by_hand: true,
-        donation_page: "https://bevyengine.org/donate/"
+        donation_page: "https://bevyengine.org/donate/",
+        description: "Rust game engine",
+    },
+    {
+        name: "Simple Icons",
+        link: "https://simpleicons.org/",
+        tags: ["design", "dev"],
+        payment_methods: ["opencollective"],
+        methods_checked_by_hand: true,
+        description: "CC0 SVG icons for popular brands",
     }
 ];
 
@@ -1396,16 +1407,16 @@ export const paymentMethodsMap = {
     "bank-transfer-us": { name: "us bank transfer", icon: "bank-transfer" },
     "bank-transfer": { name: "bank transfer", icon: "bank-transfer" },  // todo: merge eu and others?
     "buymeacoffee": { name: "buymeacoffee", icon: "buymeacoffee" },
-    "check-us": { name: "check (us)", icon: "check" },
-    "check-ca": { name: "check (ca)", icon: "check" },
+    "check-us": { name: "check (us)", icon: "" },
+    "check-ca": { name: "check (ca)", icon: "" },
     "donorbox": { name: "donorbox", icon: "donorbox" },
-    "every.org": { name: "every.org", icon: "everyorg" },
+    "every.org": { name: "every.org", icon: "" },
     "paypal": { name: "paypal", icon: "paypal" },
     "card": { name: "debit/credit card", icon: "visa" },
     "wise": { name: "wise", icon: "wise" },
     "sepa": { name: "sepa", icon: "sepa" },
     "stripe": { name: "stripe", icon: "stripe" },
-    "benevity": { name: "benevity", icon: "benevity" },
+    "benevity": { name: "benevity", icon: "" },
     // crypto section
     "btc": { name: "bitcoin", icon: "bitcoin" },
     "xmr": { name: "monero", icon: "monero" },
@@ -1416,9 +1427,9 @@ export const paymentMethodsMap = {
     "sol": { name: "solana", icon: "solana" },
     "zec": { name: "zcash", icon: "zcash" },
     "dot": { name: "polkadot", icon: "polkadot" },
-    "bch": { name: "bitcoin cash", icon: "bitcoincash" },
-    "btc-ln": { name: "bitcoin lightning", icon: "lightning" },
-    "btc-sp": { name: "bitcoin silent payments", icon: "bitcoin" }, // Using bitcoin icon as a fallback
+    "bch": { name: "bitcoin cash", icon: "bch" },
+    "btc-ln": { name: "bitcoin lightning", icon: "bitcoin" },
+    "btc-sp": { name: "bitcoin silent payments", icon: "bitcoin" },
     "xlm": { name: "stellar", icon: "stellar" },
     // stablecoin section
     "usdt-erc20": { name: "usdt erc20", icon: "tether" },
