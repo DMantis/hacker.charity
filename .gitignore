@@ -32,3 +32,5 @@ pnpm-debug.log*
 TODO.md
 # some dirty parsing scripts, not ready to be published
 scripts/
+
+.wrangler/

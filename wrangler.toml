@@ -1,0 +1,6 @@
+name = "hacker-charity"
+compatibility_date = "2025-02-08"
+pages_build_output_dir = "./webapp/dist"
+
+[env]
+production = { }
