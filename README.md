@@ -5,6 +5,9 @@ support with methods they prefer.
 
 The web part is a static website built with Astro.
 
-# List of asset sources with their corresponding licenses
-- https://www.svgrepo.com/svg/513165/bank - eu bank transfer icon - CC0
-- https://simpleicons.org/ - for most icons - CC0
+# 3rd party asset sources
+
+| Asset      | Source | License |
+|------------| --- | --- |
+| Most icons | [Simple Icons](https://simpleicons.org/) | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| Bank Icon  | [SVG Repo](https://www.svgrepo.com/svg/513165/bank) | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
