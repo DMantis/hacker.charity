@@ -11,7 +11,7 @@ export const projectsData = [
     {
         name: "pidgin im",
         link: "https://pidgin.im/",
-        tags: ["messengers", "irc"],
+        tags: ["messengers"],
         payment_methods: ["paypal", "benevity", "patreon", "github"],
         methods_checked_by_hand: true,
         description: "multi-protocol instant messaging client",
@@ -137,7 +137,7 @@ export const projectsData = [
     {
         name: "WireGuard",
         link: "https://www.wireguard.com/",
-        tags: ["VPN", "networking", "security"],
+        tags: ["vpn", "networking", "security"],
         payment_methods: ["github", "liberapay", "paypal", "patreon", "stripe", "btc"],
         methods_checked_by_hand: true,
         description: "VPN software",
@@ -508,7 +508,7 @@ export const projectsData = [
     {
         name: "hexchat",
         link: "https://hexchat.github.io/",
-        tags: ["linux", "messengers", "irc"],
+        tags: ["linux", "messengers"],
         payment_methods: ["github", "paypal"],
         methods_checked_by_hand: true,
         description: "IRC client based on XChat",
@@ -797,7 +797,7 @@ export const projectsData = [
     {
         name: "OSMC",
         link: "https://osmc.tv/",
-        tags: ["media"],
+        tags: ["media", "linux distribution"],
         payment_methods: ["btc", "paypal"],
         methods_checked_by_hand: true,
         description: "Media center OS",
@@ -816,7 +816,7 @@ export const projectsData = [
     {
         name: "Mastodon",
         link: "https://joinmastodon.org/",
-        tags: ["fediverse", "social"],
+        tags: ["social"],
         payment_methods: ["github", "stripe", "patreon", "benevity"],
         methods_checked_by_hand: true,
         description: "Federated social network",
@@ -825,7 +825,7 @@ export const projectsData = [
     {
         name: "Lemmy",
         link: "https://join-lemmy.org/",
-        tags: ["fediverse", "social"],
+        tags: ["social"],
         payment_methods: ["btc", "eth", "xmr", "liberapay", "patreon", "opencollective"],
         methods_checked_by_hand: true,
         description: "A federated alternative to reddit in rust",
@@ -978,7 +978,7 @@ export const projectsData = [
     {
         name: "Amnezia",
         link: "https://amnezia.org",
-        tags: ["networking", "windows", "linux", "macos", "ios", "android", "privacy", "security"],
+        tags: ["networking", "windows", "linux", "macos", "ios", "android", "privacy", "security", "vpn"],
         payment_methods: ["btc", "xmr", "patreon"],
         methods_checked_by_hand: true,
         description: "VPN setup and management with friendly UX and custom WG protocol",
