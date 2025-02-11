@@ -2,6 +2,7 @@
 const { title } = Astro.props;
 const description = "The curated list of open-source and privacy-oriented projects that accept donations";
 const url = "https://hacker.charity";
+const twitterHandle = "@HackerCharity1";
 ---
 
 <!DOCTYPE html>
@@ -23,6 +24,7 @@ const url = "https://hacker.charity";
 
 		<meta property="twitter:title" content={title} />
 		<meta property="twitter:description" content={description} />
+		<meta property="twitter:site" content={twitterHandle} />
 
 		<meta name="keywords" content="open source, foss, donations, privacy, security" />
 
