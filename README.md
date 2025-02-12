@@ -7,7 +7,9 @@ The web part is a static website built with Astro.
 
 # 3rd party asset sources
 
-| Asset      | Source | License |
-|------------| --- | --- |
-| Most icons | [Simple Icons](https://simpleicons.org/) | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Bank Icon  | [SVG Repo](https://www.svgrepo.com/svg/513165/bank) | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| Asset         | Source | License                                                  |
+|---------------| --- |----------------------------------------------------------|
+| Most cons     | [Simple Icons](https://simpleicons.org/) | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| Bank icon     | [SVG Repo](https://www.svgrepo.com/svg/513165/bank) | [CC BY](https://creativecommons.org/licenses/by/4.0/)    |
+| Heart favicon | [SVG Repo](https://www.svgrepo.com/svg/207519/heart) | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
+
