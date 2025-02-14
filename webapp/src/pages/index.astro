@@ -2,15 +2,15 @@
 import Layout from '../layouts/Layout.astro';
 import ProjectCard from '../components/ProjectCard.astro';
 import Tag from '../components/Tag.astro';
-import { projectsData } from '../data/projects';
-import { paymentMethodsMap } from '../data/payment_methods';
+import projectsList from '../data/projects.json';
+import paymentMethodsMap from '../data/payment_methods.json';
 
 let allProjectTags = new Set();
 let allPaymentTags = new Set();
 let projectTagsIndex = {};
 let paymentMethodsIndex = {}	;
 
-projectsData.forEach((project, index) => {
+projectsList.forEach((project, index) => {
 	project.tags.forEach(tag => {
 		let lowerTag = tag.toLowerCase();
 		allProjectTags.add(lowerTag);
@@ -45,7 +45,11 @@ for (let method in paymentMethodsIndex) {
 }
 ---
 
-<Layout title="hacker.charity">
+<Layout
+	title="hacker.charity"
+	url="https://hacker.charity"
+	description="The curated list of open-source and privacy-oriented projects that accept donations"
+>
 	<main class="container">
 		<h1>hacker.charity</h1>
 		<p>the list of open-source and privacy-oriented projects that accept donations</p>
@@ -69,8 +73,8 @@ for (let method in paymentMethodsIndex) {
 		</div>
 
 		<div id="projects" class="projects-grid">
-			{projectsData.map((project, index) => (
-				<ProjectCard project={project} index={index} />
+			{projectsList.map((project, index) => (
+				<ProjectCard project={project} index={index} paymentMethodsMap={paymentMethodsMap} />
 			))}
 		</div>
 
