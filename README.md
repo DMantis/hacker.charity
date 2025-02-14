@@ -12,7 +12,7 @@ The website is hosted at [hacker.charity](https://hacker.charity). This is a sta
 
 ## Adding a new project
 
-To add a new project, please edit the [projects.js](./webapp/src/data/projects.js) file. The format is as follows:
+To add a new project, please edit the [projects.json](./webapp/src/data/projects.json) file. The format is as follows:
 
 ```json
 {
@@ -28,14 +28,14 @@ To add a new project, please edit the [projects.js](./webapp/src/data/projects.j
 
 Fields description:
 
-| Field                     | Description                                                                                                                                                                                                                                                          |
-|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `name`                    | The name of the project.                                                                                                                                                                                                                                             |
-| `link`                    | The URL of the project's homepage.                                                                                                                                                                                                                                   |
-| `tags`                    | An array of tags that describe the project. Please don't add too many specific tags as they clutter the page. As a rule of thumb, a new tag should ideally cover at least 3 projects.                                                                                |
-| `payment_methods`         | An array of payment methods the project accepts. The possible options can be found in [payment_methods.js](./webapp/src/data/payment_methods.js).                                                                                                                   |
-| `methods_checked_by_hand` | A boolean value indicating whether the payment methods were checked by a human and not through automation (AI, crawlers, etc.).                                                                                                                                      |
-| `description`             | A short description of the project.                                                                                                                                                                                                                                  |
+| Field                     | Description                                                                                                                                                                                                                                                             |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name`                    | The name of the project.                                                                                                                                                                                                                                                |
+| `link`                    | The URL of the project's homepage.                                                                                                                                                                                                                                      |
+| `tags`                    | An array of tags that describe the project. Please don't add too many specific tags as they clutter the page. As a rule of thumb, a new tag should ideally cover at least 3 projects.                                                                                   |
+| `payment_methods`         | An array of payment methods the project accepts. The possible options can be found in [payment_methods.json](./webapp/src/data/payment_methods.json).                                                                                                                   |
+| `methods_checked_by_hand` | A boolean value indicating whether the payment methods were checked by a human and not through automation (AI, crawlers, etc.).                                                                                                                                         |
+| `description`             | A short description of the project.                                                                                                                                                                                                                                     |
 | `donation_page`           | The URL of the project's donation page, if one exists. If the only donation link is GitHub Sponsors on GitHub page, use the GitHub page. If the project only contains direct links to external resources without anchors or dedicated donation pages, leave this blank. |
 
 ## Adding a new payment method
