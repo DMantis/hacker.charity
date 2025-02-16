@@ -2452,7 +2452,7 @@
     ],
     "methods_checked_by_hand": true,
     "description": "FOSS Android apps suite, fork of the unmaintained SimpleMobileTools",
-    "donation_page": "https://github.com/FossifyOrg#support-fossify-heart"
+    "donation_page": "https://www.fossify.org/donate/"
   },
   {
     "name": "rspamd",
