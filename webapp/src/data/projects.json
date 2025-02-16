@@ -2598,5 +2598,17 @@
     "methods_checked_by_hand": true,
     "description": "Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers",
     "donation_page": "https://github.com/frida/frida"
+  },
+  {
+    "name": "PipeWire",
+    "link": "https://pipewire.org/",
+    "tags": [
+      "linux",
+      "media"
+    ],
+    "payment_methods": ["liberapay"],
+    "methods_checked_by_hand": true,
+    "description": "Linux multimedia processing server",
+    "donation_page": "https://pipewire.org/#get-involved"
   }
 ]
