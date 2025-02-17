@@ -2610,5 +2610,23 @@
     "methods_checked_by_hand": true,
     "description": "Linux multimedia processing server",
     "donation_page": "https://pipewire.org/#get-involved"
+  },
+  {
+    "name": "kaskade",
+    "link": "https://github.com/sauljabin/kaskade",
+    "tags": ["dev", "tui"],
+    "payment_methods": ["github"],
+    "methods_checked_by_hand": true,
+    "description": "TUI for kafka",
+    "donation_page": "https://github.com/sauljabin/kaskade"
+  },
+  {
+    "name": "sqlalchemy",
+    "link": "https://www.sqlalchemy.org/",
+    "tags": ["dev", "python", "databases"],
+    "payment_methods": ["paypal", "github", "patreon"],
+    "methods_checked_by_hand": true,
+    "description": "SQL toolkit and ORM for Python",
+    "donation_page": ""
   }
 ]
