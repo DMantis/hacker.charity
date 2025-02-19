@@ -2628,5 +2628,15 @@
     "methods_checked_by_hand": true,
     "description": "SQL toolkit and ORM for Python",
     "donation_page": ""
+  },
+  {
+    "name": "Zen Browser",
+    "link": "https://zen-browser.app/",
+    "tags": ["browser", "windows", "linux", "macos"],
+    "platforms": ["windows", "linux", "macos"],
+    "payment_methods": ["patreon", "kofi"],
+    "methods_checked_by_hand": true,
+    "description": "Privacy-focused browser with modern organization features",
+    "donation_page": "https://zen-browser.app/donate/"
   }
 ]
