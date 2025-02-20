@@ -2638,5 +2638,15 @@
     "methods_checked_by_hand": true,
     "description": "Privacy-focused browser with modern organization features",
     "donation_page": "https://zen-browser.app/donate/"
+  },
+  {
+    "name": "Hyprland",
+    "link": "https://hyprland.org/",
+    "tags": ["linux desktop"],
+    "platforms": ["linux"],
+    "payment_methods": ["kofi", "paypal", "eth", "sol", "ltc"],
+    "methods_checked_by_hand": true,
+    "description": "Wayland compositor",
+    "donation_page": "https://hyprland.org/support/"
   }
 ]
