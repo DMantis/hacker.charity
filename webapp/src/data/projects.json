@@ -2648,5 +2648,15 @@
     "methods_checked_by_hand": true,
     "description": "Wayland compositor",
     "donation_page": "https://hyprland.org/support/"
+  },
+  {
+    "name": "LabPlot",
+    "link": "https://labplot.org/",
+    "tags": ["science"],
+    "platforms": ["windows", "linux", "macos", "freebsd"],
+    "payment_methods": ["liberapay"],
+    "methods_checked_by_hand": true,
+    "description": "Data Visualization and Analysis software",
+    "donation_page": "https://labplot.org/donate/"
   }
 ]
