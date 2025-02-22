@@ -224,7 +224,7 @@
     "link": "https://mariadb.org/",
     "tags": [
       "dev",
-      "database"
+      "databases"
     ],
     "payment_methods": [
       "paypal"
@@ -238,7 +238,7 @@
     "link": "https://www.postgresql.org/",
     "tags": [
       "dev",
-      "database"
+      "databases"
     ],
     "payment_methods": [
       "card",
@@ -714,8 +714,9 @@
     "link": "https://xmonad.org/",
     "tags": [
       "linux",
-      "WM"
+      "linux desktop"
     ],
+    "platforms": ["linux"],
     "payment_methods": [
       "github"
     ],
@@ -727,10 +728,10 @@
     "name": "Remmina",
     "link": "https://remmina.org",
     "tags": [
-      "RDP",
       "linux",
       "admin"
     ],
+    "platforms": ["linux"],
     "payment_methods": [
       "liberapay",
       "opencollective"
@@ -1746,7 +1747,7 @@
     "link": "https://astro.build/",
     "tags": [
       "dev",
-      "static site generator"
+      "webdev"
     ],
     "payment_methods": [
       "github",
@@ -2113,7 +2114,7 @@
     "link": "https://shutter-project.org/",
     "tags": [
       "linux",
-      "screenshot"
+      "linux desktop"
     ],
     "payment_methods": [
       "github"
@@ -2161,7 +2162,7 @@
     "name": "SQLiteBrowser",
     "link": "https://sqlitebrowser.org/",
     "tags": [
-      "database",
+      "databases",
       "dev"
     ],
     "payment_methods": [
@@ -2425,7 +2426,7 @@
     "tags": [
       "security",
       "privacy",
-      "file sharing"
+      "p2p"
     ],
     "payment_methods": [
       "opencollective"
@@ -2486,8 +2487,8 @@
     "name": "croc",
     "link": "https://schollz.com/tinker/croc6/",
     "tags": [
-      "file sharing",
-      "cli"
+      "cli",
+      "p2p"
     ],
     "payment_methods": [
       "github"
@@ -2658,5 +2659,14 @@
     "methods_checked_by_hand": true,
     "description": "Data Visualization and Analysis software",
     "donation_page": "https://labplot.org/donate/"
+  },
+  {
+    "name": "NewPipe",
+    "link": "https://newpipe.net/",
+    "tags": ["android", "media"],
+    "platforms": ["android"],
+    "payment_methods": ["liberapay", "paypal", "bank-transfer-eu"],
+    "methods_checked_by_hand": true,
+    "donation_page": "https://newpipe.net/donate/"
   }
 ]
