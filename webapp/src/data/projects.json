@@ -2663,10 +2663,21 @@
   {
     "name": "NewPipe",
     "link": "https://newpipe.net/",
-    "tags": ["android", "media"],
+    "tags": ["android", "media", "privacy"],
     "platforms": ["android"],
     "payment_methods": ["liberapay", "paypal", "bank-transfer-eu"],
     "methods_checked_by_hand": true,
+    "description": "Lightweight private YouTube client without ads",
     "donation_page": "https://newpipe.net/donate/"
+  },
+  {
+    "name": "Tusky",
+    "link": "https://tusky.app/",
+    "tags": ["android", "social"],
+    "platforms": ["android"],
+    "payment_methods": ["opencollective"],
+    "methods_checked_by_hand": true,
+    "description": "Android client for Mastodon",
+    "donation_page": ""
   }
 ]
