@@ -54,3 +54,7 @@ Major cryptocurrencies (i.e., top 30-50 by CoinGecko) are welcome, but obscure c
 | Bank icon     | [SVG Repo](https://www.svgrepo.com/svg/513165/bank)  | [CC BY](https://creativecommons.org/licenses/by/4.0/)     |
 | Heart favicon | [SVG Repo](https://www.svgrepo.com/svg/207519/heart) | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
 
+# Contact 
+
+<a rel="me" href="https://floss.social/@hackercharity">Mastodon</a>
+
