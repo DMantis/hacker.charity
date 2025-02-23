@@ -2679,5 +2679,33 @@
     "methods_checked_by_hand": true,
     "description": "Android client for Mastodon",
     "donation_page": ""
+  },
+  {
+    "name": "HeliBoard",
+    "link": "https://github.com/Helium314/HeliBoard",
+    "tags": [
+      "android"
+    ],
+    "payment_methods": [
+      "liberapay"
+    ],
+    "methods_checked_by_hand": true,
+    "description": "Open-source keyboard for Android",
+    "donation_page": ""
+    },
+  {
+    "name": "FlorisBoard",
+    "link": "https://github.com/florisboard/florisboard",
+    "tags": [
+      "android"
+    ],
+    "payment_methods": [
+      "github",
+      "paypal",
+      "liberapay"
+    ],
+    "methods_checked_by_hand": true,
+    "description": "Open-source keyboard for Android",
+    "donation_page": ""
   }
 ]
