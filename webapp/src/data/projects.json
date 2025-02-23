@@ -2707,5 +2707,23 @@
     "methods_checked_by_hand": true,
     "description": "Open-source keyboard for Android",
     "donation_page": ""
+  },
+  {
+    "name": "LocalSend",
+    "link": "https://localsend.org/",
+    "tags": [
+      "p2p",
+      "windows",
+      "linux",
+      "android",
+      "macos",
+      "ios"
+    ],
+    "payment_methods": [
+      "github"
+    ],
+    "methods_checked_by_hand": true,
+    "description": "Open-source cross-platform file sharing application which works without the internet",
+    "donation_page": "https://github.com/localsend/localsend"
   }
 ]
