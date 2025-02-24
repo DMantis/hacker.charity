@@ -1013,20 +1013,6 @@
     "donation_page": "https://github.com/wwmm/easyeffects?tab=readme-ov-file#donate"
   },
   {
-    "name": "Flatpak",
-    "link": "https://flatpak.org/",
-    "tags": [
-      "linux",
-      "package managers"
-    ],
-    "payment_methods": [
-      "opencollective"
-    ],
-    "methods_checked_by_hand": true,
-    "description": "Linux package manager for distributing desktop applications across various distributions",
-    "donation_page": ""
-  },
-  {
     "name": "Syncthing",
     "link": "https://syncthing.net/",
     "tags": [
@@ -2725,5 +2711,17 @@
     "methods_checked_by_hand": true,
     "description": "Open-source cross-platform file sharing application which works without the internet",
     "donation_page": "https://github.com/localsend/localsend"
+  },
+  {
+    "name": "GNOME",
+    "link": "https://www.gnome.org/",
+    "tags": [
+      "linux desktop"
+    ],
+    "platforms": ["linux"],
+    "payment_methods": ["card"],
+    "methods_checked_by_hand": true,
+    "description": "Linux desktop environment",
+    "donation_page": "https://www.gnome.org/donate"
   }
 ]
