@@ -2719,7 +2719,7 @@
       "linux desktop"
     ],
     "platforms": ["linux"],
-    "payment_methods": ["card"],
+    "payment_methods": ["card", "paypal"],
     "methods_checked_by_hand": true,
     "description": "Linux desktop environment",
     "donation_page": "https://www.gnome.org/donate"
