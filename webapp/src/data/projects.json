@@ -2723,5 +2723,15 @@
     "methods_checked_by_hand": true,
     "description": "Linux desktop environment",
     "donation_page": "https://www.gnome.org/donate"
+  },
+  {
+    "name": "JPEGDEC",
+    "link": "https://github.com/bitbank2/JPEGDEC",
+    "tags": ["JPEG", "Media", "Embedded"],
+    "platforms": ["linux", "arduino", "windows", "macos"],
+    "payment_methods": ["kofi", "paypal", "github"],
+    "methods_checked_by_hand": true,
+    "description": "Single C file JPEG decoder optimized for embedded and desktop use",
+    "donation_page": "https://github.com/sponsors/bitbank2"
   }
 ]
