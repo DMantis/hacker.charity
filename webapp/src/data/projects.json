@@ -2733,5 +2733,24 @@
     "methods_checked_by_hand": true,
     "description": "Single C file JPEG decoder optimized for embedded and desktop use",
     "donation_page": "https://github.com/sponsors/bitbank2"
+  },
+  {
+    "name": "LibreTube",
+    "link": "https://libretube.dev/",
+    "tags": ["media", "android", "privacy"],
+    "platforms": ["android"],
+    "payment_methods": ["liberapay", "github"],
+    "methods_checked_by_hand": true,
+    "description": " An alternative frontend for YouTube, for Android",
+    "donation_page": "https://github.com/Libre-tube/LibreTube?tab=readme-ov-file#donate"
+  },
+  {
+    "name": "Piped",
+    "link": "https://github.com/TeamPiped/Piped",
+    "tags": ["media", "privacy"],
+    "payment_methods": ["btc", "eth", "xmr", "liberapay", "github"],
+    "methods_checked_by_hand": true,
+    "description": "An alternative privacy-friendly YouTube frontend which is efficient by design",
+    "donation_page": "https://github.com/TeamPiped/Piped#donations"
   }
 ]
