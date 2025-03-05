@@ -2761,5 +2761,15 @@
     "methods_checked_by_hand": true,
     "donation_page": "https://donate.khanacademy.org",
     "description": "Non-profit online educational organization"
+  },
+  {
+    "name": "StackWallet",
+    "link": "StackWallet",
+    "tags": ["finance", "cryptocurrency"],
+    "platforms": ["android", "ios", "macos", "windows", "linux"],
+    "payment_methods": ["btc", "xmr", "bch", "doge", "ltc"],
+    "methods_checked_by_hand": true,
+    "donation_page": "https://stackwallet.com/donate.html",
+    "description": "Open-source multi-currency wallet with additional privacy features"
   }
 ]
