@@ -2752,5 +2752,14 @@
     "methods_checked_by_hand": true,
     "description": "An alternative privacy-friendly YouTube frontend which is efficient by design",
     "donation_page": "https://github.com/TeamPiped/Piped#donations"
+  },
+  {
+    "name": "KhanAcademy",
+    "link": "https://www.khanacademy.org/",
+    "tags": ["education"],
+    "payment_methods": ["btc", "bch", "eth", "ltc", "card"],
+    "methods_checked_by_hand": true,
+    "donation_page": "https://donate.khanacademy.org",
+    "description": "Non-profit online educational organization"
   }
 ]
