@@ -2771,5 +2771,15 @@
     "methods_checked_by_hand": true,
     "donation_page": "https://stackwallet.com/donate.html",
     "description": "Open-source multi-currency wallet with additional privacy features"
+  },
+  {
+    "name": "Ubuntu MATE",
+    "link": "https://ubuntu-mate.org/",
+    "tags": ["linux distribution"],
+    "platforms": ["linux"],
+    "payment_methods": ["btc", "paypal", "patreon"],
+    "methods_checked_by_hand": true,
+    "donation_page": "https://ubuntu-mate.org/funding/",
+    "description": "Ubuntu distribution with MATE DE"
   }
 ]
