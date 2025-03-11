@@ -2781,5 +2781,15 @@
     "methods_checked_by_hand": true,
     "donation_page": "https://ubuntu-mate.org/funding/",
     "description": "Ubuntu distribution with MATE DE"
+  },
+  {
+    "name": "Shattered Pixel Dungeon",
+    "link": "https://shatteredpixel.com/",
+    "tags": ["games"],
+    "platforms": ["android"],
+    "payment_methods": ["liberapay", "patreon"],
+    "methods_checked_by_hand": true,
+    "description": "Roguelike game for Android",
+    "donation_page": "https://github.com/00-Evan/shattered-pixel-dungeon"
   }
 ]
