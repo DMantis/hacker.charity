@@ -2791,5 +2791,15 @@
     "methods_checked_by_hand": true,
     "description": "Roguelike game for Android",
     "donation_page": "https://github.com/00-Evan/shattered-pixel-dungeon"
+  },
+  {
+    "name": "KeePassDX",
+    "link": "https://www.keepassdx.com/",
+    "tags": ["security"],
+    "platforms": ["android"],
+    "payment_methods": ["btc", "xmr", "eth", "dot", "paypal", "liberapay"],
+    "methods_checked_by_hand": true,
+    "description": "KeePass implementation for Android",
+    "donation_page": "https://www.keepassdx.com/#donation"
   }
 ]
