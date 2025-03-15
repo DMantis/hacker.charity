@@ -2801,5 +2801,15 @@
     "methods_checked_by_hand": true,
     "description": "KeePass implementation for Android",
     "donation_page": "https://www.keepassdx.com/#donation"
+  },
+  {
+    "name": "OpenKeyChain",
+    "link": "https://www.openkeychain.org/",
+    "tags": ["security", "privacy"],
+    "platforms": ["android"],
+    "payment_methods": ["btc", "paypal"],
+    "methods_checked_by_hand": true,
+    "description": "OpenPGP implementation for Android",
+    "donation_page": ""
   }
 ]
