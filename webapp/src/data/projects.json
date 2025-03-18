@@ -2811,5 +2811,14 @@
     "methods_checked_by_hand": true,
     "description": "OpenPGP implementation for Android",
     "donation_page": ""
+  },
+  {
+    "name": "mcaptcha",
+    "link": "https://mcaptcha.org/",
+    "tags": ["privacy", "security", "web"],
+    "payment_methods": ["xmr", "liberapay"],
+    "methods_checked_by_hand": true,
+    "donation_page": "https://mcaptcha.org/donate",
+    "description": "PoW privacy-friendly CAPTCHA"
   }
 ]
