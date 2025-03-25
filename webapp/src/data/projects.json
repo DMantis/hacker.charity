@@ -2830,5 +2830,25 @@
     "donation_page": "https://github.com/sponsors/xonsh",
     "methods_checked_by_hand": true,
     "description": "Python-powered shell"
+  },
+  {
+    "name": "aves",
+    "link": "https://github.com/deckerst/aves",
+    "tags": [
+      "android",
+      "media",
+      "photos"
+    ],
+    "platforms": [
+      "android"
+    ],
+    "payment_methods": [
+      "github",
+      "paypal",
+      "liberapay"
+    ],
+    "methods_checked_by_hand": true,
+    "description": "Aves is a gallery and metadata explorer app, built for Android with Flutter.",
+    "donation_page": "https://github.com/deckerst/aves?tab=readme-ov-file#donations"
   }
 ]
