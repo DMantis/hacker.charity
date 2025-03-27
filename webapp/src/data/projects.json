@@ -2850,5 +2850,15 @@
     "methods_checked_by_hand": true,
     "description": "Aves is a gallery and metadata explorer app, built for Android with Flutter.",
     "donation_page": "https://github.com/deckerst/aves?tab=readme-ov-file#donations"
+  },
+  {
+    "name": "Accrescent",
+    "link": "https://accrescent.app/",
+    "tags": ["android", "security"],
+    "platforms": ["android"],
+    "payment_methods": ["github", "btc", "eth", "xmr"],
+    "methods_checked_by_hand": true,
+    "description": "A novel Android app store focused on security, privacy, and usability.",
+    "donation_page": "https://accrescent.app/donate"
   }
 ]
