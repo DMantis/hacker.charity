@@ -2860,5 +2860,15 @@
     "methods_checked_by_hand": true,
     "description": "A novel Android app store focused on security, privacy, and usability.",
     "donation_page": "https://accrescent.app/donate"
+  },
+  {
+    "name": "Rethink App",
+    "link": "https://rethinkfirewall.com/",
+    "tags": ["privacy", "networking", "security", "android"],
+    "platforms": ["android"],
+    "payment_methods": ["github", "stripe"],
+    "methods_checked_by_hand": true,
+    "description": "DNS over HTTPS / DNSCrypt client, WireGuard proxifier, firewall, and connection tracker for Android.",
+    "donation_page": "https://github.com/celzero/rethink-app"
   }
 ]
