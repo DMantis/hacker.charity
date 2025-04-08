@@ -2870,5 +2870,14 @@
     "methods_checked_by_hand": true,
     "description": "DNS over HTTPS / DNSCrypt client, WireGuard proxifier, firewall, and connection tracker for Android.",
     "donation_page": "https://github.com/celzero/rethink-app"
+  },
+  {
+    "name": "goatcounter",
+    "link": "https://www.goatcounter.com/",
+    "tags": ["analytics"],
+    "payment_methods": ["github"],
+    "methods_checked_by_hand": true,
+    "description": "Privacy-Friendly web analytics platform",
+    "donation_page": "https://www.goatcounter.com/contribute"
   }
 ]
