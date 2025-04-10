@@ -2879,5 +2879,13 @@
     "methods_checked_by_hand": true,
     "description": "Privacy-Friendly web analytics platform",
     "donation_page": "https://www.goatcounter.com/contribute"
+  },
+  {
+    "name": "LosslessCut",
+    "link": "https://mifi.no/losslesscut/",
+    "tags": ["video", "media"],
+    "payment_methods": ["github", "patreon", "opencollective", "stripe", "paypal", "btc", "eth", "xmr"],
+    "methods_checked_by_hand": true,
+    "donation_page": "https://mifi.no/thanks/"
   }
 ]
