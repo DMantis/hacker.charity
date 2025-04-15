@@ -2886,6 +2886,16 @@
     "tags": ["video", "media"],
     "payment_methods": ["github", "patreon", "opencollective", "stripe", "paypal", "btc", "eth", "xmr"],
     "methods_checked_by_hand": true,
+    "description": "Lossless video cutting tool based on ffmpeg",
     "donation_page": "https://mifi.no/thanks/"
+  },
+  {
+    "name": "AnySoftKeyboard",
+    "link": "https://anysoftkeyboard.github.io/",
+    "tags": ["android", "keyboard"],
+    "payment_methods": ["github", "paypal"],
+    "methods_checked_by_hand": true,
+    "donation_page": "",
+    "description": "Open-source keyboard for Android"
   }
 ]
