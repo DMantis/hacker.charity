@@ -2897,5 +2897,14 @@
     "methods_checked_by_hand": true,
     "donation_page": "",
     "description": "Open-source keyboard for Android"
+  },
+  {
+    "name": "Gallery",
+    "link": "https://github.com/IacobIonut01/Gallery",
+    "tags": ["android", "media", "photos"],
+    "payment_methods": ["revolut", "paypal"],
+    "methods_checked_by_hand": true,
+    "donation_page": "https://github.com/IacobIonut01/Gallery?tab=readme-ov-file#support",
+    "description": "Open-source gallery app for Android"
   }
 ]

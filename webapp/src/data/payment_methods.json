@@ -63,6 +63,10 @@
     "name": "wise",
     "icon": "wise"
   },
+  "revolut": {
+    "name": "revolut",
+    "icon": "revolut"
+  },
   "sepa": {
     "name": "sepa",
     "icon": "sepa"
