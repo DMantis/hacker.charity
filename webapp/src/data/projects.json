@@ -2906,5 +2906,23 @@
     "methods_checked_by_hand": true,
     "donation_page": "https://github.com/IacobIonut01/Gallery?tab=readme-ov-file#support",
     "description": "Open-source gallery app for Android"
+  },
+  {
+    "name": "Veilid",
+    "link": "https://veilid.com/",
+    "tags": ["privacy", "networking", "security", "p2p", "overlays"],
+    "payment_methods": ["stripe"],
+    "methods_checked_by_hand": true,
+    "donation_page": "https://veilid.com/faq/",
+    "description": "p2p overlay application framework"
+  },
+  {
+    "name": "i2pd",
+    "link": "https://i2pd.website/",
+    "tags": ["privacy", "networking", "security", "p2p", "overlays"],
+    "payment_methods": ["btc", "ltc", "eth", "zec", "xmr"],
+    "methods_checked_by_hand": true,
+    "donation_page": "https://i2pd.website/#donations",
+    "description": "C++ implementation of the I2P network"
   }
 ]
